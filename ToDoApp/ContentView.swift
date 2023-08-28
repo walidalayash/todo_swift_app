@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  ToDoApp
 //
-//  Created by walid alayash on 26/8/2023.
 //
 
 import SwiftUI
