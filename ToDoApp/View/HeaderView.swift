@@ -12,6 +12,7 @@ struct HeaderView: View {
     let subtitle: String
     let angle: Double
     let background: Color
+    //let background: y
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius:10)
@@ -28,7 +29,7 @@ struct HeaderView: View {
             }
             .padding(.top,40)
         }.frame(width: UIScreen.main.bounds.width * 3,height: 300)
-            .offset(y:-200)
+            .offset(y:-135)
         
     }
 }
