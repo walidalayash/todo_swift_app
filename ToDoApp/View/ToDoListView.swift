@@ -9,7 +9,8 @@ import FirebaseAuth
 import SwiftUI
 
 struct ToDoListView: View {
-    @StateObject var viewModel = ToDoListViewModel()
+  //  @StateObject var viewModel = ToDoListViewModel()
+    @StateObject var viewModel: ToDoListViewModel
     @FirestoreQuery var items: [ToDoListItem]
    let firebaseAuth = Auth.auth()
  //   private let userId: String
@@ -19,6 +20,7 @@ struct ToDoListView: View {
         self._items = FirestoreQuery(
         collectionPath: "users/\(userId)/todos"
         )
+        self._viewModel = StateObject(wrappedValue: ToDoListViewModel(userId: userId))
     }
 
     var body: some View {
@@ -31,7 +33,7 @@ struct ToDoListView: View {
                         Button("delete"){
                             viewModel.delete(id: item.id)
                         }
-                        .foregroundColor(Color.red)
+                        .tint(.red)
                     }
             }
             .listStyle(PlainListStyle())
