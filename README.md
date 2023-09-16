@@ -1,7 +1,8 @@
 # todo_swift_app
 simple todo app with swiftUI using firebase for auth and firestore Cloud (Database)
+MVVM architecture
 
-<img src="[https://github.com/walidalayash/todo_swift_app/assets/83910549/38550989-3f1e-4840-8d73-222c9d1d6e92](https://github.com/walidalayash/todo_swift_app/assets/83910549/9efffefb-5b36-4aaf-af6f-ed811bba531f)" width="350" height="700">
+<img src="https://github.com/walidalayash/todo_swift_app/assets/83910549/38550989-3f1e-4840-8d73-222c9d1d6e92](https://github.com/walidalayash/todo_swift_app/assets/83910549/9efffefb-5b36-4aaf-af6f-ed811bba531f" width="350" height="700">
 <img src="https://github.com/walidalayash/todo_swift_app/assets/83910549/38550989-3f1e-4840-8d73-222c9d1d6e92" width="350" height="700">
 <img src="https://github.com/walidalayash/todo_swift_app/assets/83910549/0c312f91-d938-42ab-b36f-770fade5813b" width="350" height="700">
 <img src="https://github.com/walidalayash/todo_swift_app/assets/83910549/de092407-090a-416d-a788-2f2dec6ca2a6" width="350" height="700">
