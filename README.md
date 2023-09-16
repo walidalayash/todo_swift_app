@@ -1,4 +1,4 @@
-# todo_swift_app
+# todo_swiftUI_app
 simple todo app with swiftUI using firebase for auth and firestore Cloud (Database)
 # Architecture
 MVVM 
